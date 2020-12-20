@@ -3,16 +3,8 @@ import { AddCircleOutline, RemoveCircleOutline } from "@material-ui/icons";
 import React, { ChangeEvent, useState } from "react";
 import styled from "styled-components";
 
+import { ScreenContainer } from "../common/ScreenContainer";
 import { Typography } from "../common/Typography";
-
-const ScreenContainer = styled.div`
-    background-color: aliceblue;
-    display: flex;
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    align-items: center;
-`;
 
 const ProgressButton = styled(IconButton)`
     && {
@@ -85,7 +77,6 @@ function CrochetCounterScreen(): React.ReactElement {
     if (patternStepsList.length > 0 && currentCount === 1 && timesCount > numOfTimes) {
         return (
             <ScreenContainer>
-                <Typography variant="h3">Crochet Counter</Typography>
                 <Typography variant="h4" $margin="30px 0">
                     Round Complete!
                 </Typography>
@@ -99,7 +90,6 @@ function CrochetCounterScreen(): React.ReactElement {
     if (patternStepsList.length > 0) {
         return (
             <ScreenContainer>
-                <Typography variant="h3">Crochet Counter</Typography>
                 <Typography variant="h5">Step: {currentCount}</Typography>
                 <Typography variant="h5">Times: {timesCount}</Typography>
                 <Typography variant="h3">{patternStepsList[currentCount - 1]}</Typography>
@@ -116,7 +106,6 @@ function CrochetCounterScreen(): React.ReactElement {
 
     return (
         <ScreenContainer>
-            <Typography variant="h3">Crochet Counter</Typography>
             <Typography variant="subtitle1">{"Please enter the steps below (Separate steps with '-')"}</Typography>
             <Typography variant="body2" $margin="30px 0 0 0">
                 Pattern

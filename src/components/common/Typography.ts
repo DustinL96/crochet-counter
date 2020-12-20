@@ -14,6 +14,7 @@ export const Typography = styled(MaterialTypography)<ITypographyProps>`
     && {
         display: flex;
         align-items: center;
+        font-family: "SourceSansPro", sans-serif;
         text-transform: ${(props: ITypographyProps): string | undefined => props.$transform};
         font-weight: ${(props: ITypographyProps): string => (props.$fontWeight ? props.$fontWeight : "normal")};
         color: ${(props: ITypographyProps): string | undefined => props.$fontColor};

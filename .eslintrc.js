@@ -54,6 +54,7 @@ module.exports =  {
     "ignorePatterns": [
         "**/*.css",
         "**/*.png",
+        "**/*.jpg",
         "**/*.svg",
         "**/*.gif",
         "**/*.ttf",
