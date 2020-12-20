@@ -1,6 +1,8 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
+import { HOME_SCREEN_PATH } from "../../defs/screenPaths";
 import CrochetCounterLogo from "../../resources/images/CrochetCounterLogo.png";
 
 export const HEADER_HEIGHT = 100;
@@ -18,7 +20,9 @@ const LogoImage = styled.img`
 function ScreenHeader(): React.ReactElement {
     return (
         <HeaderContainer>
-            <LogoImage src={CrochetCounterLogo} alt="Crochet Counter Logo" />
+            <Link to={HOME_SCREEN_PATH}>
+                <LogoImage src={CrochetCounterLogo} alt="Crochet Counter Logo" />
+            </Link>
         </HeaderContainer>
     );
 }
