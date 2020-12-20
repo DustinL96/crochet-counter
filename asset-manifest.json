@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/crochet-counter/static/css/main.254032f0.chunk.css",
-    "main.js": "/crochet-counter/static/js/main.41284192.chunk.js",
-    "main.js.map": "/crochet-counter/static/js/main.41284192.chunk.js.map",
-    "runtime-main.js": "/crochet-counter/static/js/runtime-main.92e49b44.js",
-    "runtime-main.js.map": "/crochet-counter/static/js/runtime-main.92e49b44.js.map",
-    "static/js/2.af2be9fb.chunk.js": "/crochet-counter/static/js/2.af2be9fb.chunk.js",
-    "static/js/2.af2be9fb.chunk.js.map": "/crochet-counter/static/js/2.af2be9fb.chunk.js.map",
-    "static/js/3.7ba75c83.chunk.js": "/crochet-counter/static/js/3.7ba75c83.chunk.js",
-    "static/js/3.7ba75c83.chunk.js.map": "/crochet-counter/static/js/3.7ba75c83.chunk.js.map",
+    "main.css": "/crochet-counter/static/css/main.1ae82cc7.chunk.css",
+    "main.js": "/crochet-counter/static/js/main.d62b81f8.chunk.js",
+    "main.js.map": "/crochet-counter/static/js/main.d62b81f8.chunk.js.map",
+    "runtime-main.js": "/crochet-counter/static/js/runtime-main.04e859f0.js",
+    "runtime-main.js.map": "/crochet-counter/static/js/runtime-main.04e859f0.js.map",
+    "static/js/2.3bb53c2e.chunk.js": "/crochet-counter/static/js/2.3bb53c2e.chunk.js",
+    "static/js/2.3bb53c2e.chunk.js.map": "/crochet-counter/static/js/2.3bb53c2e.chunk.js.map",
+    "static/js/3.8f7722eb.chunk.js": "/crochet-counter/static/js/3.8f7722eb.chunk.js",
+    "static/js/3.8f7722eb.chunk.js.map": "/crochet-counter/static/js/3.8f7722eb.chunk.js.map",
     "index.html": "/crochet-counter/index.html",
-    "static/css/main.254032f0.chunk.css.map": "/crochet-counter/static/css/main.254032f0.chunk.css.map",
-    "static/js/2.af2be9fb.chunk.js.LICENSE.txt": "/crochet-counter/static/js/2.af2be9fb.chunk.js.LICENSE.txt"
+    "static/css/main.1ae82cc7.chunk.css.map": "/crochet-counter/static/css/main.1ae82cc7.chunk.css.map",
+    "static/js/2.3bb53c2e.chunk.js.LICENSE.txt": "/crochet-counter/static/js/2.3bb53c2e.chunk.js.LICENSE.txt",
+    "static/media/CrochetCounterLogo.0ac1ec93.png": "/crochet-counter/static/media/CrochetCounterLogo.0ac1ec93.png",
+    "static/media/HomeBackground.3120aa33.jpg": "/crochet-counter/static/media/HomeBackground.3120aa33.jpg",
+    "static/media/App.css": "/crochet-counter/static/media/SourceSansPro-SemiBold.43cc81b4.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.92e49b44.js",
-    "static/js/2.af2be9fb.chunk.js",
-    "static/css/main.254032f0.chunk.css",
-    "static/js/main.41284192.chunk.js"
+    "static/js/runtime-main.04e859f0.js",
+    "static/js/2.3bb53c2e.chunk.js",
+    "static/css/main.1ae82cc7.chunk.css",
+    "static/js/main.d62b81f8.chunk.js"
   ]
 }
