@@ -1,5 +1,5 @@
 import { Button, IconButton, TextField } from "@material-ui/core";
-import { Add, Remove } from "@material-ui/icons";
+import { AddCircleOutline, RemoveCircleOutline } from "@material-ui/icons";
 import React, { ChangeEvent, useState } from "react";
 import styled from "styled-components";
 
@@ -14,7 +14,15 @@ const ScreenContainer = styled.div`
     align-items: center;
 `;
 
-const AddIcon = styled(Add)`
+const ProgressButton = styled(IconButton)`
+    && {
+        &:hover {
+            background-color: transparent;
+        }
+    }
+`;
+
+const AddIcon = styled(AddCircleOutline)`
     && {
         width: 80%;
         height: 80%;
@@ -48,7 +56,6 @@ function CrochetCounterScreen(): React.ReactElement {
     };
 
     const handleNextStepClick = (): void => {
-        // Increase Times Count
         if (currentCount === patternStepsList.length) {
             setTimesCount((count: number): number => count + 1);
         }
@@ -96,12 +103,12 @@ function CrochetCounterScreen(): React.ReactElement {
                 <Typography variant="h5">Step: {currentCount}</Typography>
                 <Typography variant="h5">Times: {timesCount}</Typography>
                 <Typography variant="h3">{patternStepsList[currentCount - 1]}</Typography>
-                <IconButton onClick={handleNextStepClick} disableRipple disableFocusRipple disableTouchRipple>
+                <ProgressButton onClick={handleNextStepClick} disableRipple disableFocusRipple disableTouchRipple>
                     <AddIcon />
-                </IconButton>
-                <IconButton onClick={handlePreviousStepClick}>
-                    <Remove />
-                </IconButton>
+                </ProgressButton>
+                <ProgressButton onClick={handlePreviousStepClick}>
+                    <RemoveCircleOutline />
+                </ProgressButton>
                 <Button onClick={(): void => setPatternStepsList([])}>Cancel</Button>
             </ScreenContainer>
         );
