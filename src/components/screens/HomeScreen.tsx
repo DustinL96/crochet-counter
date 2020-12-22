@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { Redirect } from "react-router-dom";
 import styled from "styled-components";
 
-import { COUNTER_SCREEN_PATH } from "../../defs/screenPaths";
+import { PATTERN_SCREEN_PATH } from "../../defs/screenPaths";
 import HomeBackground from "../../resources/images/HomeBackground.jpg";
 import { ScreenContainer } from "../common/ScreenContainer";
 import { Typography } from "../common/Typography";
@@ -54,7 +54,7 @@ function HomeScreen(): React.ReactElement {
                     <Typography variant="h4" $fontWeight="bold">
                         Let us do it for you
                     </Typography>
-                    <MenuButton variant="contained" onClick={(): void => setNextScreen(COUNTER_SCREEN_PATH)}>
+                    <MenuButton variant="contained" onClick={(): void => setNextScreen(PATTERN_SCREEN_PATH)}>
                         <Typography variant="h5">Get Started</Typography>
                     </MenuButton>
                 </ContentContainer>
